@@ -1,0 +1,21 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+.highlight{
+    color: orange;
+}
+.container-1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    text-align: justify;
+    padding-left: 2%;
+}
+.container-1 img{
+    width: 100%;
+}
