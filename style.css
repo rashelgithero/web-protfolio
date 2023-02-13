@@ -1,6 +1,8 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    
 }
 
 h1{
@@ -15,7 +17,67 @@ h1{
     margin-left: 5%;
     text-align: justify;
     padding-left: 2%;
+    
+    
 }
-.container-1 img{
+p{
+    color: dimgray;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+img{
     width: 100%;
+    padding-top: 4%;
+    
+}
+.first-block{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    
+}
+.second-block{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+.block{
+    box-shadow: 10px 10px 40px grey ;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+    
+}
+.area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#reader{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, yellow, tomato);
+    border-image-slice: 1;
+
+}
+#learner{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
 }
