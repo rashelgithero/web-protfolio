@@ -25,7 +25,7 @@ p{
     padding-bottom: 10px;
     padding-right: 10px;
 }
-img{
+.images{
     width: 100%;
     padding-top: 4%;
     
@@ -52,25 +52,18 @@ section{
 .second-block{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-    
-    
-
-
+    background-position: right bottom;
 }
 .block{
     box-shadow: 10px 10px 40px grey ;
     border-radius: 5px;
     height: 70%;
     background-color: white;
-    
 }
 .area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
-    
-    
+    background-position: left; 
 }
 #reader{
     border-left: 7px solid;
