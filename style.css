@@ -36,7 +36,7 @@ img{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 
 }
 .link-button{
@@ -53,6 +53,8 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    
+    
 
 
 }
@@ -68,16 +70,30 @@ section{
     background-repeat: no-repeat;
     background-position: left;
     
+    
 }
 #reader{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, yellow, tomato);
     border-image-slice: 1;
+    position: relative;
+    top: 60px;
 
 }
 #learner{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    position: relative;
+    top: 60px;
 
+
+}
+h5{
+    text-align: center;
+    color: grey;
+}
+.header{
+    position: relative;
+    top: 50px;
 }
